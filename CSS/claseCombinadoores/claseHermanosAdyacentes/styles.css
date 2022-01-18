@@ -4,6 +4,10 @@
     margin: 0;
 }
 
- h2 +p{
+/* Adjacent Sibling o hemano cercano */
+ h2 + p{
      color: red;
  }
+
+ /* General Sibling o hermano general */
+ h2
