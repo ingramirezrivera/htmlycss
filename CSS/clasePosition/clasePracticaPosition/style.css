@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.main-box{
+    position: relative;
+    margin: 100px auto;
+    background-color: lightblue;
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+}
+.box-title{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    background-color: lightcoral;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    z-index: 1;
+
+}
+.box-paragraph{
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+    height: 250px;
+    background-color: lightgreen;
+    border-radius: 8px;
+
+}
+.box-title__title {
+    color: white;
+    text-align: center;
+    margin: auto auto;
+}
+.box-paragraph__paragraph{
+    position: relative;
+    color: white;
+    margin: 10px 10px 10px 10px;
+
+}
