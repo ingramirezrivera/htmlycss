@@ -1,0 +1,6 @@
+:root{
+    --web-font:  'Roboto Mono', monospace;
+}
+html{
+    font-family: var(--web-font);
+}
